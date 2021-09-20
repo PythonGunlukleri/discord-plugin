@@ -87,20 +87,3 @@ stop(){
 
 
 
-/*
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-var xmlhttp = new XMLHttpRequest();   // new HttpRequest instance 
-var theUrl = "https://discord.com/api/v8/users/@me/settings";
-xmlhttp.open("PATCH", theUrl);
-xmlhttp.setRequestHeader("Content-Type", "application/json");
-xmlhttp.setRequestHeader("authorization", "ODg5MDY0NDkzODY5NTkyNjM3.YUbz3Q.r7hFlkm2pOs9L7ETTEZJxmz8wWE");
-xmlhttp.send(JSON.stringify({"custom_status":{"text":"ŞÜKÜR OLDU o ye"}}));
-xmlhttp.onload = function () {
-  if (xmlhttp.readyState === xmlhttp.DONE) {
-      if (xmlhttp.status === 200) {
-          console.log(xmlhttp.response);
-          console.log(xmlhttp.responseText);
-      }
-  }
-};
-*/
